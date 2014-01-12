@@ -1,0 +1,136 @@
+%YAML 1.2
+---
+
+# Collection of rocket clubs
+clubs:
+
+  PSAS:
+    shortname: PSAS
+    name: Portland State Aerospace Society
+    institution: Portland State University
+    location:
+      name: Portland, Ore.
+      lat: 45.50938
+      lon: -122.68094
+    homepage: http://psas.pdx.edu/
+    links:
+      - title: "@pdxaerospace"
+        url: https://twitter.com/pdxaerospace/
+      - title: github.com/psas
+        url: https://github.com/psas
+    project: "Advanced open source avionics"
+
+
+  BU:
+    shortname: BU Rocket
+    name: Boston University Rocket Propulsion Group
+    institution: Boston University
+    location:
+      name: Boston, MA
+      lat: 42.3500
+      lon: -71.1071
+    homepage: http://www.burocket.org/
+    links:
+      - title: "facebook"
+        url: https://www.facebook.com/BURocketPropulsionGroup
+      - title: Project blog
+        url: http://www.burocket.org/news/
+    project: "Large student built hybrid rocket"
+
+
+  UF:
+    shortname: UF Rocket Team
+    name: University of Florida Rocket Team
+    institution: University of Florida
+    location:
+      name: Gainesville, FL
+      lat: 29.6441
+      lon: -82.3487
+    homepage: http://www.ufrocketteam.com/
+    links:
+      - title: "Project blog"
+        url: http://www.ufrocketteam.com/blog/
+    project: "?"
+
+
+  Triton:
+    shortname: Triton Rocket Club
+    name: Triton Rocket Club at UC San Diego
+    institution: University of California - San Diego
+    location:
+      name: San Diego, CA
+      lat: 32.8794
+      lon: -117.2406
+    homepage: http://tritonrocket.ucsd.edu/
+    links:
+      - title: "@UCSDTRC"
+        url: https://twitter.com/UCSDTRC
+      - title: facebook
+        url: https://www.facebook.com/UCSDTRC
+    project: "?"
+
+
+  UCSEDS:
+    shortname: "SEDS @ UC San Diego"
+    name: SEDS at UC San Diego
+    institution: University of California - San Diego
+    location:
+      name: San Diego, CA
+      lat: 32.8794
+      lon: -117.2406
+    homepage: http://seds.ucsd.edu/
+    project: "3D printed liquid motor"
+
+
+  SDSU:
+    shortname: The SDSU Rocket Project
+    name: San Diego State University Rocket Project
+    institution: San Diego State University
+    location:
+      name: San Diego, CA
+      lat: 32.7752
+      lon: -117.0717
+    homepage: http://rocket.sdsu.edu/
+    links:
+      - title: facebook
+        url: http://www.facebook.com/TheSdsuRocketProject
+      - title: youtube
+        url: https://www.youtube.com/user/sdsurocket
+    project: "Student built liquid motor"
+
+
+  USCRPL:
+    shortname: USCRPL
+    name: USC Rocket Propulsion Lab
+    institution: University of Southern California
+    location:
+      name: Los Angeles, CA
+      lat: 34.0224
+      lon: -118.2862
+    homepage: http://www.uscrpl.com/
+    links:
+      - title: Project blog
+        url: http://uscrpl.blogspot.com/
+      - title: "@USCRPL"
+        url: https://twitter.com/USCRPL
+      - title: facebook
+        url: https://www.facebook.com/USCRPL
+      - title: youtube
+        url: http://www.youtube.com/user/USCRocketLab
+    project: "Carbon fiber rockets, 100 km attempts, large solid motors"
+
+
+  AeroPac:
+    shortname: AeroPac
+    name: AeroPac
+    institution: Private Club
+    location:
+      name: San Fransisco, CA
+      lat: 37.7799
+      lon: -122.418
+    homepage: http://www.aeropac.org/
+    links:
+      - title: Newsletter
+        url: http://www.aeropac.org/newsletters.html
+    project: "30 km 2-stage rocket with COTS motors"
+

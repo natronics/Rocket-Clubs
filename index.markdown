@@ -14,15 +14,15 @@ Universities. That said, if you see something you think is missing,
 --------------------------------------------------------------------------------
 
 
-### PSAS
+### AeroPac
 
-_Portland State Aerospace Society_, Portland, OR
+_AeroPac_, San Fransisco, CA
 
- - [psas.pdx.edu](http://psas.pdx.edu/)
- - [@pdxaerospace](https://twitter.com/pdxaerospace/)
- - code: <https://github.com/psas>
+ - <http://www.aeropac.org/>
+ - [Newsletter](http://www.aeropac.org/newsletters.html)
 
-**Major Project**: Advanced open source avionics
+
+**Major Project**: 30 km 2-stage rocket with COTS motors
 
 
 --------------------------------------------------------------------------------
@@ -32,34 +32,27 @@ _Portland State Aerospace Society_, Portland, OR
 
 _Boston University Rocket Propulsion Group_, Boston, MA
 
- - [burocket.org](http://www.burocket.org/)
+ - <http://www.burocket.org/>
  - [facebook](https://www.facebook.com/BURocketPropulsionGroup)
- - blog: <http://www.burocket.org/news/>
-
-**Major Project**: Large hybrid motor
+ - [Project blog](http://www.burocket.org/news/)
 
 
---------------------------------------------------------------------------------
-
-
-### UF Rocket Team
-
-_University of Florida Rocket Team_, Gainesville, FL
-
- - [ufrocketteam.com](http://www.ufrocketteam.com/)
- - blog: <http://www.ufrocketteam.com/blog/>
+**Major Project**: Large student built hybrid rocket
 
 
 --------------------------------------------------------------------------------
 
 
-### Triton Rocket Club
+### PSAS
 
-_Triton Rocket Club at UC San Diego_, San Diego, CA
+_Portland State Aerospace Society_, Portland, Ore.
 
- - [tritonrocket.ucsd.edu](http://tritonrocket.ucsd.edu/)
- - [@UCSDTRC](https://twitter.com/UCSDTRC)
- - [facebook](https://www.facebook.com/UCSDTRC)
+ - <http://psas.pdx.edu/>
+ - [@pdxaerospace](https://twitter.com/pdxaerospace/)
+ - [github.com/psas](https://github.com/psas)
+
+
+**Major Project**: Advanced open source avionics
 
 
 --------------------------------------------------------------------------------
@@ -69,7 +62,8 @@ _Triton Rocket Club at UC San Diego_, San Diego, CA
 
 _SEDS at UC San Diego_, San Diego, CA
 
- - [seds.ucsd.edu](http://seds.ucsd.edu/)
+ - <http://seds.ucsd.edu/>
+
 
 **Major Project**: 3D printed liquid motor
 
@@ -81,11 +75,41 @@ _SEDS at UC San Diego_, San Diego, CA
 
 _San Diego State University Rocket Project_, San Diego, CA
 
- - [rocket.sdsu.edu](http://rocket.sdsu.edu/)
+ - <http://rocket.sdsu.edu/>
  - [facebook](http://www.facebook.com/TheSdsuRocketProject)
  - [youtube](https://www.youtube.com/user/sdsurocket)
 
-**Major Project**: Liquid motor research
+
+**Major Project**: Student built liquid motor
+
+
+--------------------------------------------------------------------------------
+
+
+### Triton Rocket Club
+
+_Triton Rocket Club at UC San Diego_, San Diego, CA
+
+ - <http://tritonrocket.ucsd.edu/>
+ - [@UCSDTRC](https://twitter.com/UCSDTRC)
+ - [facebook](https://www.facebook.com/UCSDTRC)
+
+
+**Major Project**: ?
+
+
+--------------------------------------------------------------------------------
+
+
+### UF Rocket Team
+
+_University of Florida Rocket Team_, Gainesville, FL
+
+ - <http://www.ufrocketteam.com/>
+ - [Project blog](http://www.ufrocketteam.com/blog/)
+
+
+**Major Project**: ?
 
 
 --------------------------------------------------------------------------------
@@ -95,26 +119,16 @@ _San Diego State University Rocket Project_, San Diego, CA
 
 _USC Rocket Propulsion Lab_, Los Angeles, CA
 
- - [uscrpl.com](http://www.uscrpl.com/)
+ - <http://www.uscrpl.com/>
+ - [Project blog](http://uscrpl.blogspot.com/)
  - [@USCRPL](https://twitter.com/USCRPL)
  - [facebook](https://www.facebook.com/USCRPL)
  - [youtube](http://www.youtube.com/user/USCRocketLab)
- - blog: <http://uscrpl.blogspot.com/>
-
-**Major Project**: 100 km attempt, large solid motors
 
 
---------------------------------------------------------------------------------
-
-
-### AeroPac
-
-_AeroPac_, San Fransisco, CA
-
- - [aeropac.org](http://www.aeropac.org/)
- - newsletter: <http://www.aeropac.org/newsletters.html>
-
-**Major Project**:  30 km 2-stage rocket with COTS motors
+**Major Project**: Carbon fiber rockets, 100 km attempts, large solid motors
 
 
 --------------------------------------------------------------------------------
+
+
