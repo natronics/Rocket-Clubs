@@ -1,0 +1,2 @@
+exclude: [README.markdown, LICENSE, Makefile, site_builder.py]
+pygments: true
