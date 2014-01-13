@@ -120,6 +120,27 @@ clubs:
     project: "Carbon fiber rockets, 100 km attempts, large solid motors"
 
 
+  CRT:
+    shortname: CRT
+    name: Cornell Rocketry Team
+    institution: Cornell University
+    location:
+      name: Ithaca, NY
+      lat: 42.4496
+      lon: -76.4793
+    homepage: http://rocketry.engineering.cornell.edu/
+    links:
+      - title: News
+        url: http://rocketry.engineering.cornell.edu/news.html
+      - title: "@CornellRocketry"
+        url: https://twitter.com/CornellRocketry
+      - title: facebook
+        url: https://www.facebook.com/CornellRocketry
+    project: "Two stage rocket, stearable fins in collaboration with Boston University"
+
+
+groups:
+
   AeroPac:
     shortname: AeroPac
     name: AeroPac

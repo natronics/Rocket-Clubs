@@ -14,19 +14,32 @@ Universities. That said, if you see something you think is missing,
 --------------------------------------------------------------------------------
 
 
-### AeroPac
+<div class="col-sm-4" markdown="1">
+## University Clubs
 
-_AeroPac_, San Fransisco, CA
+ - [BU Rocket](#bu_rocket)
+ - [CRT](#crt)
+ - [PSAS](#psas)
+ - [SEDS @ UC San Diego](#seds__uc_san_diego)
+ - [The SDSU Rocket Project](#the_sdsu_rocket_project)
+ - [Triton Rocket Club](#triton_rocket_club)
+ - [UF Rocket Team](#uf_rocket_team)
+ - [USCRPL](#uscrpl)
 
- - <http://www.aeropac.org/>
- - [Newsletter](http://www.aeropac.org/newsletters.html)
+</div>
+
+<div class="col-sm-4" markdown="1">
+## Independent
+
+ - [AeroPac](#aeropac)
+
+</div>
 
 
-**Major Project**: 30 km 2-stage rocket with COTS motors
+{.row}
+------------------
 
-
---------------------------------------------------------------------------------
-
+# University Clubs
 
 ### BU Rocket
 
@@ -38,6 +51,22 @@ _Boston University Rocket Propulsion Group_, Boston, MA
 
 
 **Major Project**: Large student built hybrid rocket
+
+
+--------------------------------------------------------------------------------
+
+
+### CRT
+
+_Cornell Rocketry Team_, Ithaca, NY
+
+ - <http://rocketry.engineering.cornell.edu/>
+ - [News](http://rocketry.engineering.cornell.edu/news.html)
+ - [@CornellRocketry](https://twitter.com/CornellRocketry)
+ - [facebook](https://www.facebook.com/CornellRocketry)
+
+
+**Major Project**: Two stage rocket, stearable fins in collaboration with Boston University
 
 
 --------------------------------------------------------------------------------
@@ -127,6 +156,23 @@ _USC Rocket Propulsion Lab_, Los Angeles, CA
 
 
 **Major Project**: Carbon fiber rockets, 100 km attempts, large solid motors
+
+
+--------------------------------------------------------------------------------
+
+
+
+# Independent Clubs
+
+### AeroPac
+
+_AeroPac_, San Fransisco, CA
+
+ - <http://www.aeropac.org/>
+ - [Newsletter](http://www.aeropac.org/newsletters.html)
+
+
+**Major Project**: 30 km 2-stage rocket with COTS motors
 
 
 --------------------------------------------------------------------------------
