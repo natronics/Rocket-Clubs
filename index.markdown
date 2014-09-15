@@ -13,168 +13,61 @@ Universities. That said, if you see something you think is missing,
 
 --------------------------------------------------------------------------------
 
-
-<div class="col-sm-4" markdown="1">
-## University Clubs
-
- - [BU Rocket](#bu_rocket)
- - [CRT](#crt)
- - [PSAS](#psas)
- - [SEDS @ UC San Diego](#seds__uc_san_diego)
- - [The SDSU Rocket Project](#the_sdsu_rocket_project)
- - [Triton Rocket Club](#triton_rocket_club)
- - [UF Rocket Team](#uf_rocket_team)
- - [USCRPL](#uscrpl)
-
+<div class="row">
+ <div class="col-sm-6">
+  <h2>University Clubs</h2>
+   <ul>
+    {% for club in site.data.groups['clubs'] %}
+      <li><a href="#{{ club.shortname | downcase | replace:' ', '-' | replace:'@', '' }}">{{ club.shortname }}</a></li>
+    {% endfor %}
+   </ul>
+  </div>
+  <div class="col-sm-6">
+   <h2>Independent</h2>
+    {% for club in site.data.groups['groups'] %}
+      <li><a href="">{{ club.shortname }}</a></li>
+    {% endfor %}
+ </div>
 </div>
 
-<div class="col-sm-4" markdown="1">
-## Independent
+---------------
 
- - [AeroPac](#aeropac)
-
-</div>
-
-
-{.row}
-------------------
 
 # University Clubs
 
-### BU Rocket
+{% for club in site.data.groups['clubs'] %}
+### {{ club.shortname }}
 
-_Boston University Rocket Propulsion Group_, Boston, MA
+_{{ club.name }}_, {{ club.location.name }}
 
- - <http://www.burocket.org/>
- - [facebook](https://www.facebook.com/BURocketPropulsionGroup)
- - [Project blog](http://www.burocket.org/news/)
+<ul>
+ <li><a href="{{ club.homepage }}">{{ club.homepage }}</a></li>
+ {% for link in club.links %}
+ <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+ {% endfor %}
+</ul>
 
-
-**Major Project**: Large student built hybrid rocket
-
-
---------------------------------------------------------------------------------
-
-
-### CRT
-
-_Cornell Rocketry Team_, Ithaca, NY
-
- - <http://rocketry.engineering.cornell.edu/>
- - [News](http://rocketry.engineering.cornell.edu/news.html)
- - [@CornellRocketry](https://twitter.com/CornellRocketry)
- - [facebook](https://www.facebook.com/CornellRocketry)
-
-
-**Major Project**: Two stage rocket, stearable fins in collaboration with Boston University
-
+**Major Project**: {{ club.project }}
 
 --------------------------------------------------------------------------------
 
-
-### PSAS
-
-_Portland State Aerospace Society_, Portland, Ore.
-
- - <http://psas.pdx.edu/>
- - [@pdxaerospace](https://twitter.com/pdxaerospace/)
- - [github.com/psas](https://github.com/psas)
-
-
-**Major Project**: Advanced open source avionics
-
-
---------------------------------------------------------------------------------
-
-
-### SEDS @ UC San Diego
-
-_SEDS at UC San Diego_, San Diego, CA
-
- - <http://seds.ucsd.edu/>
-
-
-**Major Project**: 3D printed liquid motor
-
-
---------------------------------------------------------------------------------
-
-
-### The SDSU Rocket Project
-
-_San Diego State University Rocket Project_, San Diego, CA
-
- - <http://rocket.sdsu.edu/>
- - [facebook](http://www.facebook.com/TheSdsuRocketProject)
- - [youtube](https://www.youtube.com/user/sdsurocket)
-
-
-**Major Project**: Student built liquid motor
-
-
---------------------------------------------------------------------------------
-
-
-### Triton Rocket Club
-
-_Triton Rocket Club at UC San Diego_, San Diego, CA
-
- - <http://tritonrocket.ucsd.edu/>
- - [@UCSDTRC](https://twitter.com/UCSDTRC)
- - [facebook](https://www.facebook.com/UCSDTRC)
-
-
-**Major Project**: ?
-
-
---------------------------------------------------------------------------------
-
-
-### UF Rocket Team
-
-_University of Florida Rocket Team_, Gainesville, FL
-
- - <http://www.ufrocketteam.com/>
- - [Project blog](http://www.ufrocketteam.com/blog/)
-
-
-**Major Project**: ?
-
-
---------------------------------------------------------------------------------
-
-
-### USCRPL
-
-_USC Rocket Propulsion Lab_, Los Angeles, CA
-
- - <http://www.uscrpl.com/>
- - [Project blog](http://uscrpl.blogspot.com/)
- - [@USCRPL](https://twitter.com/USCRPL)
- - [facebook](https://www.facebook.com/USCRPL)
- - [youtube](http://www.youtube.com/user/USCRocketLab)
-
-
-**Major Project**: Carbon fiber rockets, 100 km attempts, large solid motors
-
-
---------------------------------------------------------------------------------
-
-
+{% endfor %}
 
 # Independent Clubs
 
-### AeroPac
 
-_AeroPac_, San Fransisco, CA
+{% for club in site.data.groups['groups'] %}
+### {{ club.shortname }}
 
- - <http://www.aeropac.org/>
- - [Newsletter](http://www.aeropac.org/newsletters.html)
+_{{ club.name }}_, {{ club.location.name }}
 
+<ul>
+ <li><a href="{{ club.homepage }}">{{ club.homepage }}</a></li>
+ {% for link in club.links %}
+ <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+ {% endfor %}
+</ul>
 
-**Major Project**: 30 km 2-stage rocket with COTS motors
+**Major Project**: {{ club.project }}
 
-
---------------------------------------------------------------------------------
-
-
+{% endfor %}

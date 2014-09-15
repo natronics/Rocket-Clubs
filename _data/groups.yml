@@ -1,11 +1,6 @@
-%YAML 1.2
----
-
-# Collection of rocket clubs
 clubs:
 
-  PSAS:
-    shortname: PSAS
+  - shortname: PSAS
     name: Portland State Aerospace Society
     institution: Portland State University
     location:
@@ -21,8 +16,7 @@ clubs:
     project: "Advanced open source avionics"
 
 
-  BU:
-    shortname: BU Rocket
+  - shortname: BU Rocket
     name: Boston University Rocket Propulsion Group
     institution: Boston University
     location:
@@ -38,8 +32,7 @@ clubs:
     project: "Large student built hybrid rocket"
 
 
-  UF:
-    shortname: UF Rocket Team
+  - shortname: UF Rocket Team
     name: University of Florida Rocket Team
     institution: University of Florida
     location:
@@ -53,8 +46,7 @@ clubs:
     project: "?"
 
 
-  Triton:
-    shortname: Triton Rocket Club
+  - shortname: Triton Rocket Club
     name: Triton Rocket Club at UC San Diego
     institution: University of California - San Diego
     location:
@@ -70,8 +62,7 @@ clubs:
     project: "?"
 
 
-  UCSEDS:
-    shortname: "SEDS @ UC San Diego"
+  - shortname: "SEDS @ UC San Diego"
     name: SEDS at UC San Diego
     institution: University of California - San Diego
     location:
@@ -82,8 +73,7 @@ clubs:
     project: "3D printed liquid motor"
 
 
-  SDSU:
-    shortname: The SDSU Rocket Project
+  - shortname: The SDSU Rocket Project
     name: San Diego State University Rocket Project
     institution: San Diego State University
     location:
@@ -99,8 +89,7 @@ clubs:
     project: "Student built liquid motor"
 
 
-  USCRPL:
-    shortname: USCRPL
+  - shortname: USCRPL
     name: USC Rocket Propulsion Lab
     institution: University of Southern California
     location:
@@ -120,8 +109,7 @@ clubs:
     project: "Carbon fiber rockets, 100 km attempts, large solid motors"
 
 
-  CRT:
-    shortname: CRT
+  - shortname: CRT
     name: Cornell Rocketry Team
     institution: Cornell University
     location:
@@ -141,8 +129,7 @@ clubs:
 
 groups:
 
-  AeroPac:
-    shortname: AeroPac
+  - shortname: AeroPac
     name: AeroPac
     institution: Private Club
     location:

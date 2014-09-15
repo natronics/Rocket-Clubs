@@ -1,2 +1,4 @@
-exclude: [README.markdown, LICENSE, Makefile, site_builder.py]
-pygments: true
+exclude: [README.markdown, LICENSE, Makefile]
+timezone:   America/Los_Angeles
+markdown:   kramdown
+
