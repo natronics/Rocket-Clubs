@@ -1,21 +1,5 @@
 clubs:
 
-  - shortname: PSAS
-    name: Portland State Aerospace Society
-    institution: Portland State University
-    location:
-      name: Portland, Ore.
-      lat: 45.50938
-      lon: -122.68094
-    homepage: http://psas.pdx.edu/
-    links:
-      - title: "@pdxaerospace"
-        url: https://twitter.com/pdxaerospace/
-      - title: github.com/psas
-        url: https://github.com/psas
-    project: "Advanced open source avionics"
-
-
   - shortname: BU Rocket
     name: Boston University Rocket Propulsion Group
     institution: Boston University
@@ -32,18 +16,99 @@ clubs:
     project: "Large student built hybrid rocket"
 
 
-  - shortname: UF Rocket Team
-    name: University of Florida Rocket Team
-    institution: University of Florida
+  - shortname: CRT
+    name: Cornell Rocketry Team
+    institution: Cornell University
     location:
-      name: Gainesville, FL
-      lat: 29.6441
-      lon: -82.3487
-    homepage: http://www.ufrocketteam.com/
+      name: Ithaca, NY
+      lat: 42.4496
+      lon: -76.4793
+    homepage: http://rocketry.engineering.cornell.edu/
     links:
-      - title: "Project blog"
-        url: http://www.ufrocketteam.com/blog/
-    project: "?"
+      - title: News
+        url: http://rocketry.engineering.cornell.edu/news.html
+      - title: "@CornellRocketry"
+        url: https://twitter.com/CornellRocketry
+      - title: facebook
+        url: https://www.facebook.com/CornellRocketry
+    project: "Two stage rocket, stearable fins in collaboration with Boston University"
+
+
+  - shortname: CUSF
+    name: Cambridge University Space Flight
+    institution: University of Cambridge
+    location:
+      name: Cambridge, England
+      lat: 52.20427
+      lon: 0.11506
+    homepage: http://www.cusf.co.uk/
+    links:
+      - title: github/cuspaceflight
+        url: https://github.com/cuspaceflight
+      - title: "@cuspaceflight"
+        url: https://twitter.com/cuspaceflight
+    project: "Open Source avionics"
+
+
+  - shortname: DARE
+    name: Delft Aerospace Rocket Engineering
+    institution: Technische Universiteit Delft
+    location:
+      name: Delft, The Netherlands
+      lat: 51.99826
+      lon: 4.37508
+    homepage: http://dare.tudelft.nl/
+    links:
+      - title: "@DARE_TUDelft"
+        url: https://twitter.com/DARE_TUDelft
+      - title: youtube
+        url: https://www.youtube.com/user/lrdare
+      - title: facebook
+        url: https://www.facebook.com/DelftAerospaceRocketEngineering
+    project: "Large Hybrid, 50 km attempt, active stabilization (canards)"
+
+
+  - shortname: PSAS
+    name: Portland State Aerospace Society
+    institution: Portland State University
+    location:
+      name: Portland, Ore.
+      lat: 45.50938
+      lon: -122.68094
+    homepage: http://psas.pdx.edu/
+    links:
+      - title: "@pdxaerospace"
+        url: https://twitter.com/pdxaerospace/
+      - title: github.com/psas
+        url: https://github.com/psas
+    project: "Advanced open source avionics"
+
+
+  - shortname: The SDSU Rocket Project
+    name: San Diego State University Rocket Project
+    institution: San Diego State University
+    location:
+      name: San Diego, CA
+      lat: 32.7752
+      lon: -117.0717
+    homepage: http://rocket.sdsu.edu/
+    links:
+      - title: facebook
+        url: http://www.facebook.com/TheSdsuRocketProject
+      - title: youtube
+        url: https://www.youtube.com/user/sdsurocket
+    project: "Student built liquid motor"
+
+
+  - shortname: "SEDS @ UC San Diego"
+    name: SEDS at UC San Diego
+    institution: University of California - San Diego
+    location:
+      name: San Diego, CA
+      lat: 32.8794
+      lon: -117.2406
+    homepage: http://seds.ucsd.edu/
+    project: "3D printed liquid motor"
 
 
   - shortname: Triton Rocket Club
@@ -62,32 +127,18 @@ clubs:
     project: "?"
 
 
-  - shortname: "SEDS @ UC San Diego"
-    name: SEDS at UC San Diego
-    institution: University of California - San Diego
+  - shortname: UF Rocket Team
+    name: University of Florida Rocket Team
+    institution: University of Florida
     location:
-      name: San Diego, CA
-      lat: 32.8794
-      lon: -117.2406
-    homepage: http://seds.ucsd.edu/
-    project: "3D printed liquid motor"
-
-
-  - shortname: The SDSU Rocket Project
-    name: San Diego State University Rocket Project
-    institution: San Diego State University
-    location:
-      name: San Diego, CA
-      lat: 32.7752
-      lon: -117.0717
-    homepage: http://rocket.sdsu.edu/
+      name: Gainesville, FL
+      lat: 29.6441
+      lon: -82.3487
+    homepage: http://www.ufrocketteam.com/
     links:
-      - title: facebook
-        url: http://www.facebook.com/TheSdsuRocketProject
-      - title: youtube
-        url: https://www.youtube.com/user/sdsurocket
-    project: "Student built liquid motor"
-
+      - title: "Project blog"
+        url: http://www.ufrocketteam.com/blog/
+    project: "?"
 
   - shortname: USCRPL
     name: USC Rocket Propulsion Lab
@@ -107,24 +158,6 @@ clubs:
       - title: youtube
         url: http://www.youtube.com/user/USCRocketLab
     project: "Carbon fiber rockets, 100 km attempts, large solid motors"
-
-
-  - shortname: CRT
-    name: Cornell Rocketry Team
-    institution: Cornell University
-    location:
-      name: Ithaca, NY
-      lat: 42.4496
-      lon: -76.4793
-    homepage: http://rocketry.engineering.cornell.edu/
-    links:
-      - title: News
-        url: http://rocketry.engineering.cornell.edu/news.html
-      - title: "@CornellRocketry"
-        url: https://twitter.com/CornellRocketry
-      - title: facebook
-        url: https://www.facebook.com/CornellRocketry
-    project: "Two stage rocket, stearable fins in collaboration with Boston University"
 
 
 groups:
