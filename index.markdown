@@ -10,11 +10,13 @@ I find particularly exiting or advanced. It's mostly student groups at
 Universities. That said, if you see something you think is missing,
 [send a pull request](https://github.com/natronics/Rocket-Clubs)!
 
+Download a yaml file of this data: [groups.yml](https://github.com/natronics/Rocket-Clubs/raw/gh-pages/_data/groups.yml)
+
 
 --------------------------------------------------------------------------------
 
 <div class="columns">
- <div class="column is-6">
+ <div class="column">
   <h2>University Clubs</h2>
    <ul>
     {% for club in site.data.groups['clubs'] %}
@@ -22,7 +24,7 @@ Universities. That said, if you see something you think is missing,
     {% endfor %}
    </ul>
   </div>
-  <div class="column is-6">
+  <div class="column">
    <h2>Independent</h2>
     {% for club in site.data.groups['groups'] %}
       <li><a href="">{{ club.shortname }}</a></li>
@@ -35,7 +37,12 @@ Universities. That said, if you see something you think is missing,
 
 # University Clubs
 
+<div class="columns is-multiline" markdown="1">
+
 {% for club in site.data.groups['clubs'] %}
+
+<div class="column is-third" markdown="1">
+
 ### {{ club.shortname }}
 
 _{{ club.name }}_, {{ club.location.name }}
@@ -49,9 +56,10 @@ _{{ club.name }}_, {{ club.location.name }}
 
 **Major Project**: {{ club.project }}
 
---------------------------------------------------------------------------------
+</div>
 
 {% endfor %}
+</div>
 
 # Independent Clubs
 
