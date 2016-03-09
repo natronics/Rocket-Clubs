@@ -13,8 +13,8 @@ Universities. That said, if you see something you think is missing,
 
 --------------------------------------------------------------------------------
 
-<div class="row">
- <div class="col-sm-6">
+<div class="columns">
+ <div class="column is-6">
   <h2>University Clubs</h2>
    <ul>
     {% for club in site.data.groups['clubs'] %}
@@ -22,7 +22,7 @@ Universities. That said, if you see something you think is missing,
     {% endfor %}
    </ul>
   </div>
-  <div class="col-sm-6">
+  <div class="column is-6">
    <h2>Independent</h2>
     {% for club in site.data.groups['groups'] %}
       <li><a href="">{{ club.shortname }}</a></li>
