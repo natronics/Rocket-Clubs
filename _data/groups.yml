@@ -1,6 +1,6 @@
 clubs:
 
-  - shortname: BU Rocket
+  - shortname: BURPG
     name: Boston University Rocket Propulsion Group
     institution: Boston University
     location:
@@ -13,7 +13,7 @@ clubs:
         url: https://www.facebook.com/BURocketPropulsionGroup
       - title: Project blog
         url: http://www.burocket.org/news/
-    project: "Large student built hybrid rocket"
+    project: "Large student built hybrid rocket (abandonded), now large liquid-fueled engine. Goal: >100 km."
 
 
   - shortname: CRT
@@ -31,7 +31,7 @@ clubs:
         url: https://twitter.com/CornellRocketry
       - title: facebook
         url: https://www.facebook.com/CornellRocketry
-    project: "Two stage rocket, stearable fins in collaboration with Boston University"
+    project: "Avionics, complex autonomous payload integration"
 
 
   - shortname: CUSF
@@ -81,7 +81,7 @@ clubs:
         url: https://twitter.com/pdxaerospace/
       - title: github.com/psas
         url: https://github.com/psas
-    project: "Advanced open source avionics"
+    project: "Advanced open source avionics, lightweight carbon fiber, liquid-fueled engine"
 
 
   - shortname: The SDSU Rocket Project
@@ -97,7 +97,7 @@ clubs:
         url: http://www.facebook.com/TheSdsuRocketProject
       - title: youtube
         url: https://www.youtube.com/user/sdsurocket
-    project: "Student built liquid motor"
+    project: "Student built liquid-fueled engine"
 
 
   - shortname: "SEDS @ UC San Diego"
@@ -108,7 +108,7 @@ clubs:
       lat: 32.8794
       lon: -117.2406
     homepage: http://seds.ucsd.edu/
-    project: "3D printed liquid motor"
+    project: "3D printed liquid-fueled engine"
 
 
   - shortname: Triton Rocket Club
