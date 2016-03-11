@@ -67,6 +67,16 @@ clubs:
         url: https://www.facebook.com/DelftAerospaceRocketEngineering
     project: "Large Hybrid, 50 km attempt, active stabilization (canards)"
 
+  - shortname: MIT
+    name: MIT Rocket Team
+    institution: Massachusetts Institute of Technology
+    location:
+      name: Cambridge, MA
+      lat: 42.373611
+      lon: -71.110556
+    homepage: http://rocketry.mit.edu/
+    links: []
+    project: "Liquid-fueled engine, Linux flight computer with stearable parafoil auto-recovery"
 
   - shortname: PSAS
     name: Portland State Aerospace Society
