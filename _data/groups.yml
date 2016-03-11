@@ -9,11 +9,12 @@ clubs:
       lon: -71.1071
     homepage: http://www.burocket.org/
     links:
-      - title: "facebook"
+      - title: Facebook
         url: https://www.facebook.com/BURocketPropulsionGroup
       - title: Project blog
         url: http://www.burocket.org/news/
     project: "Large student built hybrid rocket (abandonded), now large liquid-fueled engine. Goal: >100 km."
+    tags: [liquid-engine, high-altitude]
 
 
   - shortname: CRT
@@ -32,6 +33,7 @@ clubs:
       - title: facebook
         url: https://www.facebook.com/CornellRocketry
     project: "Avionics, complex autonomous payload integration"
+    tags: [avionics, TARC]
 
 
   - shortname: CUSF
@@ -48,7 +50,7 @@ clubs:
       - title: "@cuspaceflight"
         url: https://twitter.com/cuspaceflight
     project: "Open Source avionics"
-
+    tags: [avionics, open-source]
 
   - shortname: DARE
     name: Delft Aerospace Rocket Engineering
@@ -66,6 +68,8 @@ clubs:
       - title: facebook
         url: https://www.facebook.com/DelftAerospaceRocketEngineering
     project: "Large Hybrid, 50 km attempt, active stabilization (canards)"
+    tags: [hybrid, high-altitude]
+
 
   - shortname: MIT
     name: MIT Rocket Team
@@ -76,7 +80,9 @@ clubs:
       lon: -71.110556
     homepage: http://rocketry.mit.edu/
     links: []
-    project: "Liquid-fueled engine, Linux flight computer with stearable parafoil auto-recovery"
+    project: "Linux flight computer with stearable parafoil auto-recovery"
+    tags: [avionics, TARC]
+
 
   - shortname: PSAS
     name: Portland State Aerospace Society
@@ -92,6 +98,7 @@ clubs:
       - title: github.com/psas
         url: https://github.com/psas
     project: "Advanced open source avionics, lightweight carbon fiber, liquid-fueled engine"
+    tags: [avionics, open-source, liquid-engine, high-altitude]
 
 
   - shortname: The SDSU Rocket Project
@@ -108,6 +115,7 @@ clubs:
       - title: youtube
         url: https://www.youtube.com/user/sdsurocket
     project: "Student built liquid-fueled engine"
+    tags: [liquid-engine]
 
 
   - shortname: "SEDS @ UC San Diego"
@@ -119,6 +127,7 @@ clubs:
       lon: -117.2406
     homepage: http://seds.ucsd.edu/
     project: "3D printed liquid-fueled engine"
+    tags: [liquid-engine]
 
 
   - shortname: Triton Rocket Club
@@ -168,6 +177,7 @@ clubs:
       - title: youtube
         url: http://www.youtube.com/user/USCRocketLab
     project: "Carbon fiber rockets, 100 km attempts, large solid motors"
+    tags: [high-altitude]
 
 
 groups:
@@ -184,4 +194,5 @@ groups:
       - title: Newsletter
         url: http://www.aeropac.org/newsletters.html
     project: "30 km 2-stage rocket with COTS motors"
+    tags: [high-altitude]
 

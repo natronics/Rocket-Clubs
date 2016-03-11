@@ -19,9 +19,9 @@ Download a yaml file of this data: [groups.yml](https://github.com/natronics/Roc
  <div class="column">
   <h2>University Clubs</h2>
    <ul>
-    {% for club in site.data.groups['clubs'] %}
-      <li><a href="#{{ club.shortname | downcase | replace:' ', '-' | replace:'@', '' }}">{{ club.shortname }}</a></li>
-    {% endfor %}
+   {% for club in site.data.groups['clubs'] %}
+   <li class="{% for tag in club.tags %}{{tag}} {% endfor %}"><a href="#{{ club.shortname | downcase | replace:' ', '-' | replace:'@', '' }}">{{ club.shortname }}</a></li>
+   {% endfor %}
    </ul>
   </div>
   <div class="column">
@@ -32,7 +32,14 @@ Download a yaml file of this data: [groups.yml](https://github.com/natronics/Roc
  </div>
 </div>
 
----------------
+### Tags:
+
+Click a tag to highlight:
+
+<p id="taglist">
+</p>
+
+--------------------------------------------------------------------------------
 
 
 # University Clubs
@@ -41,9 +48,9 @@ Download a yaml file of this data: [groups.yml](https://github.com/natronics/Roc
 
 {% for club in site.data.groups['clubs'] %}
 
-<div class="column is-third" markdown="1">
+<div class="column is-half {% for tag in club.tags %}{{tag}} {% endfor %}" style="margin-bottom:40px;padding-left:40px;" markdown="1">
 
-### {{ club.shortname }}
+<h3 style="border-bottom:1px solid #ccc;" id="{{ club.shortname | downcase | replace:' ', '-' | replace:'@', '' }}">{{ club.shortname }}</h3>
 
 _{{ club.name }}_, {{ club.location.name }}
 
@@ -55,6 +62,8 @@ _{{ club.name }}_, {{ club.location.name }}
 </ul>
 
 **Major Project**: {{ club.project }}
+
+Tags: {% for tag in club.tags %}<span class="tag">{{ tag }}</span> {% endfor %}
 
 </div>
 
@@ -79,3 +88,49 @@ _{{ club.name }}_, {{ club.location.name }}
 **Major Project**: {{ club.project }}
 
 {% endfor %}
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        var taglist = new Set();
+
+        {% for club in site.data.groups['clubs'] %}
+            {% for tag in club.tags %}
+                taglist.add("{{ tag }}");
+            {% endfor %}
+        {% endfor %}
+
+        for (var tag of taglist) {
+            $('<a/>', {
+                id: tag,
+                text: tag,
+                class: "tag"
+            }).appendTo('#taglist').click(function () {
+
+                // clear highlights
+                $('a.tag').css("background-color", "#f5f7fa");
+                for (var tag of taglist) {
+                    $('.'+tag).css("background-color", "#fff");
+                }
+
+                // highlight
+                $("."+this.id).css("background-color", "#fed");
+                $(this).css("background-color", "#fed");
+            });
+            $('#taglist').append(" ");
+        }
+
+        $('<a/>', {
+                id: 'clear',
+                text: "Clear Highlights",
+                class: "button is-small"
+            }).appendTo('#taglist').click(function () {
+                // clear highlights
+                $('a.tag').css("background-color", "#f5f7fa");
+                for (var tag of taglist) {
+                    $('.'+tag).css("background-color", "#fff");
+                }
+         });
+    });
+</script>
