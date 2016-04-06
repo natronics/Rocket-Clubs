@@ -16,6 +16,23 @@ clubs:
     project: "Large student built hybrid rocket (abandonded), now large liquid-fueled engine. Goal: >100 km."
     tags: [liquid-engine, high-altitude]
 
+  - shortname: Cal Poly Space Systems
+    name: Cal Poly Space Systems
+    institution: California Polytechnic State University
+    location:
+      name: San Luis Obispo, CA
+      lat: 35.274167
+      lon: -120.663056
+    homepage: http://cpspacesystems.com/
+    links:
+      - title: YouTube
+        url: https://www.youtube.com/user/CalPolySpaceSystems
+      - title: Flickr
+        url: https://www.flickr.com/photos/calpolyspacesystems/
+      - title: Project blog
+        url: http://cpspacesystems.com/updates/
+    project: "Large HTPB Hybrid motor"
+    tags: [hybrid, high-altitude, IREC]
 
   - shortname: CRT
     name: Cornell Rocketry Team
