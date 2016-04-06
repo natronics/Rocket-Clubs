@@ -52,6 +52,7 @@ clubs:
     project: "Open Source avionics"
     tags: [avionics, open-source]
 
+
   - shortname: DARE
     name: Delft Aerospace Rocket Engineering
     institution: Technische Universiteit Delft
@@ -69,6 +70,23 @@ clubs:
         url: https://www.facebook.com/DelftAerospaceRocketEngineering
     project: "Large Hybrid, 50 km attempt, active stabilization (canards)"
     tags: [hybrid, high-altitude]
+
+
+  - shortname: LPRD
+    name: LPRD (“leopard”) Rocketry
+    institution: University of Minnesota
+    location:
+      name: Minneapolis–Saint Paul, MN
+      lat: 44.95
+      lon: -93.2
+    homepage: http://lprdrocketry.com/
+    links:
+      - title: "@LprdRocketry"
+        url: https://twitter.com/LprdRocketry
+      - title: facebook
+        url: https://www.facebook.com/LPRDRocketry
+    project: "Liquid-fueled engine"
+    tags: [liquid-engine]
 
 
   - shortname: MIT
@@ -195,4 +213,20 @@ groups:
         url: http://www.aeropac.org/newsletters.html
     project: "30 km 2-stage rocket with COTS motors"
     tags: [high-altitude]
+
+  - shortname: Copenhagen Suborbitals
+    name: Copenhagen Suborbitals
+    institution: Private Club
+    location:
+      name: Copenhagen, Denmark
+      lat: 55.676111
+      lon: 12.568333
+    homepage: http://copenhagensuborbitals.com/
+    links:
+      - title: Blogs
+        url: http://copenhagensuborbitals.com/blogs/
+      - title: "@CopSub"
+        url: https://twitter.com/CopSub
+    project: "Building monstrous, huge, eventually crewed rocket to edge of space (100 km). Effectively a tiny space program"
+    tags: [high-altitude, crewed, ]
 
