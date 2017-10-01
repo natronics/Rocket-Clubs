@@ -9,6 +9,8 @@ clubs:
       lon: -71.1071
     homepage: http://www.burocket.org/
     links:
+      - title: "@BURPG"
+        url: https://twitter.com/BURPG
       - title: Facebook
         url: https://www.facebook.com/BURocketPropulsionGroup
       - title: Project blog
@@ -114,7 +116,9 @@ clubs:
       lat: 42.373611
       lon: -71.110556
     homepage: http://rocketry.mit.edu/
-    links: []
+    links:
+      - title: youtube
+        url: https://www.youtube.com/channel/UCXt-SJ9F4kwuM_OFWwPkFSA
     project: "Linux flight computer with stearable parafoil auto-recovery"
     tags: [avionics, TARC]
 
@@ -145,6 +149,8 @@ clubs:
       lon: -117.0717
     homepage: http://rocket.sdsu.edu/
     links:
+      - title: "@rocketsdsu"
+        url: https://twitter.com/rocketsdsu
       - title: facebook
         url: http://www.facebook.com/TheSdsuRocketProject
       - title: youtube
@@ -161,6 +167,9 @@ clubs:
       lat: 32.8794
       lon: -117.2406
     homepage: http://seds.ucsd.edu/
+    links:
+      - title: "@SEDS_UCSD"
+        url: https://twitter.com/SEDS_UCSD
     project: "3D printed liquid-fueled engine"
     tags: [liquid-engine]
 
