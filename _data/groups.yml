@@ -116,11 +116,15 @@ clubs:
       lat: 42.373611
       lon: -71.110556
     homepage: http://rocketry.mit.edu/
-    links:
+    links: 
+      - title: facebook
+        url: https://www.facebook.com/mitrocketry
       - title: youtube
-        url: https://www.youtube.com/channel/UCXt-SJ9F4kwuM_OFWwPkFSA
-    project: "Linux flight computer with stearable parafoil auto-recovery"
-    tags: [avionics, TARC]
+        url: https://www.youtube.com/c/MITRocketTeam
+      - title: @MITRocketTeam
+        url: https://www.youtube.com/c/MITRocketTeam
+    project: “Homebuilt Avionics, Liquid Rocket Engine, High altitude flight“
+    tags: [avionics, liquid-engine, IREC, high-altitude]
 
 
   - shortname: PSAS
