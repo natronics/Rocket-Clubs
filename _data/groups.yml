@@ -177,6 +177,30 @@ clubs:
     project: "3D printed liquid-fueled engine"
     tags: [liquid-engine]
 
+    - shortname: SOAR
+      name: Society of Aeronautics and Rocketry
+      institution: University of South Florida - Tampa
+      location:
+        name: Tampa, FL
+        lat: 28.06630
+        lon: -82.42555
+      homepage: http://usfsoar.com
+      links:
+        - title: "@USFSOAR"
+          url: https://twitter.com/USFSOAR/
+        - title: github.com/usfsoar
+          url: https://github.com/usfsoar
+        - title: facebook
+          url: https://www.facebook.com/usfsoar/
+        - title: instagram
+          url: https://www.instagram.com/usfsoar/
+        - title: linkedin
+          url: https://www.linkedin.com/company/usfsoar/
+        - title: youtube
+          url: https://www.youtube.com/channel/UCUYj5Gy1M1UwwZYzC5QRLHQ
+      project: "NASA Student Launch competition, student-built liquid engine, space-shot (330,000 ft) rocket, solid motors, hybrid rockets"
+      tags: [hybrid, high-altitude, NASA-SLI, IREC, solid-motors, liquid-engine]
+
 
   - shortname: Triton Rocket Club
     name: Triton Rocket Club at UC San Diego
