@@ -40,7 +40,7 @@ The raw data (the list) is in the file `_data/groups.yml`. Simply edit the file 
   links:
     - title: "@twitter handle"
       url: https://twitter.com/handle/
-    - title: github.com/gihubname
+    - title: github.com/githubname
       url: https://github.com/github name
     ... etc. as many as you like (facebook, youtube, blog...)
   project: "Short description of the main projects the club works on, this should highlight the exciting part"
