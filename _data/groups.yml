@@ -1,5 +1,23 @@
 clubs:
 
+  - shortname: UND-ARC
+    name: University of North Dakota Advanced Rocketry Club
+    institution: University of North Dakota
+    location:
+      name: Grand Forks, ND
+      lat: 47.9253
+      lon: 97.0329
+    homepage: http://www.arcnodak.com
+    links:
+      - title: Facebook
+        url: https://www.facebook.com/North.Dakota.ARC/
+      - title: Instagram
+        url: https://www.instagram.com/und.arc/
+      - title: GitHub
+        url: https://www.github.com/UND-ARC/
+      project: "Student-led design and construction of a liquid-fueled rocket to reach 100km altitude."
+      tags: [liquid-engine, high-altitude, open-source]
+
   - shortname: BURPG
     name: Boston University Rocket Propulsion Group
     institution: Boston University
@@ -116,7 +134,7 @@ clubs:
       lat: 42.373611
       lon: -71.110556
     homepage: http://rocketry.mit.edu/
-    links: 
+    links:
       - title: facebook
         url: https://www.facebook.com/mitrocketry
       - title: youtube
@@ -282,4 +300,3 @@ groups:
         url: https://twitter.com/CopSub
     project: "Building monstrous, huge, eventually crewed rocket to edge of space (100 km). Effectively a tiny space program"
     tags: [high-altitude, crewed, ]
-
